@@ -4,6 +4,7 @@ import { Accounts } from 'meteor/accounts-base';
 
 export default class Link extends React.Component {
   onLogout(){
+    console.log("Clicked Logout");
     Accounts.logout();
   }
   render(){
